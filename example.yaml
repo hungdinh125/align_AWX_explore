@@ -4,7 +4,7 @@
   hosts: localhost
   gather_facts: false
   vars:
-    data_dirs: ['/', '/dean', '/dinh']
+    data_dirs: ['/marco', '/hung', '/910']
 
   tasks:
     - name: pause with render
