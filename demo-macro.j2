@@ -1,5 +1,5 @@
 {% marco comma(loop) %}
-{{ ',' if not loop.plast else '' }}
+{{ ',' if not loop.last else '' }}
 {% endmarco %}
 #data dirs.
 {% for dir in data_dirs if dir != "/" %}
